@@ -36,7 +36,7 @@ Ensure you have access to a shell environment:
     
     echo $SHELL
 
-![checking shell](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/06/1.png)
+![checking shell](./images/shell-scripting_b_1.png)
 
 ## 2\. Your First Script
 
@@ -55,7 +55,7 @@ Then type:
 
 Save and exit with `:wq`.
 
-![vim](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/06/2.png)
+![vim](./images/shell-scripting_b_2.png)
 
 ### Understanding the Script Line-by-Line
 
@@ -73,7 +73,7 @@ Save and exit with `:wq`.
     rm file1.txt
     rmdir new_project
 
-![commands](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/06/3.png)
+![commands](./images/shell-scripting_b_3.png)
 
 ## 4\. Command-Line Power: Pipes and Redirection
 
@@ -83,11 +83,11 @@ Save and exit with `:wq`.
     echo "Backup complete" > backup.log
     cat backup.log
 
-![fourth](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/06/4.png)
+![fourth](./images/shell-scripting_b_4.png)
 
 ## 5\. File Manipulation
 
-![5](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/06/5.png)
+![5](./images/shell-scripting_b_5.png)
 
     
     
@@ -98,8 +98,8 @@ Save and exit with `:wq`.
     mv oldname.txt newname.txt
     mv file.txt /path/to/directory/
 
-![6](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/06/6.png)
-![7](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/06/7.png)
+![6](./images/shell-scripting_b_6.png)
+![7](./images/shell-scripting_b_7.png)
 
 ## 6\. Working with Text Files
 
@@ -109,7 +109,7 @@ Save and exit with `:wq`.
     cut -c5-10 file1.txt
     paste file1.txt backup.log
 
-![files](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/06/8.png)
+![files](./images/shell-scripting_b_8.png)
 
 ## 7\. Variables and Substitution
 
@@ -126,7 +126,7 @@ Save and exit with `:wq`.
     echo "You live in $city"
     echo "This is a log entry" >> logfile.txt
 
-![9](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/06/9.png)
+![9](./images/shell-scripting_b_9.png)
 
 ## 9\. Control Structures
 
@@ -141,7 +141,7 @@ Save and exit with `:wq`.
         echo "Zero"
     fi
 
-![10](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/06/10.png)
+![10](./images/shell-scripting_b_10.png)
 
 ## 10\. Bash Comparison Operators Cheat Sheet
 
@@ -172,7 +172,7 @@ Operator| Meaning
         echo "Number: $i"
     done
 
-![11](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/06/11.png)
+![11](./images/shell-scripting_b_11.png)
 
     
     
@@ -187,7 +187,7 @@ Operator| Meaning
         echo "2^$i = $power"
     done
 
-![12](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/06/12.png)
+![12](./images/shell-scripting_b_12.png)
 
 ### While Loop:
 
@@ -200,7 +200,7 @@ Operator| Meaning
         ((count++))
     done
 
-![13](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/06/13.png)
+![13](./images/shell-scripting_b_13.png)
 
 ## 11\. Functions
 
@@ -211,7 +211,7 @@ Operator| Meaning
     }
     greet "Waleed"
 
-![14](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/06/14.png)
+![14](./images/shell-scripting_b_14.png)
 
 ## 12\. Conclusion
 

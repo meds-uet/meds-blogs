@@ -26,7 +26,7 @@ handling. Capable of running Linux, UETRV-PCore also includes comprehensive
 architecture compatibility tests using RISOF, ensuring robustness and
 compliance with the RISC-V specifications.
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/03/1.png)
+![](./images/zephyr_a_1.png)
 
 Fig 1.1 : System Design Overview
 
@@ -193,7 +193,7 @@ processor and verify its interactions with Zephyr.
   * **Requires Firmware Rebuild for Changes:** Any modifications in hardware configuration require a full firmware rebuild to take effect.
   * **Optimized for Embedded Systems:** This static approach is beneficial for resource-constrained systems, minimizing runtime overhead and optimizing for deterministic performance.
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/03/2.png)
+![](./images/zephyr_a_2.png)
 
 Fig 1.2 : Device Tree Handling
 

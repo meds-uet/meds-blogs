@@ -28,8 +28,8 @@ When you open the readme or markdown file in the VS-code, in the top right
 side of VS-code you can see such an icon, click on icon readme file preview
 will be opened.
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/02/1.png)
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/02/2.png)
+![](./images/Markdown_b_1.png)
+![](./images/Markdown_b_2.png)
 
 ##
 
@@ -52,7 +52,7 @@ heading.
 
 **Output:**
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/02/3.png)
+![](./images/Markdown_b_3.png)
 
 ##
 
@@ -69,7 +69,7 @@ heading.
 
 **Output:**
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/02/4.png)
+![](./images/Markdown_b_4.png)
 
 ##
 
@@ -84,7 +84,7 @@ heading.
 
 **Output:**
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/02/5.png)
+![](./images/Markdown_b_5.png)
 
 ##
 
@@ -99,7 +99,7 @@ heading.
 
 **Output:**
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/02/6.png)
+![](./images/Markdown_b_6.png)
 
 **Ordered List:**
 
@@ -110,7 +110,7 @@ heading.
 
 **Output:**
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/02/7.png)
+![](./images/Markdown_b_7.png)
 
 ##
 
@@ -123,7 +123,7 @@ heading.
 
 **Output:**
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/02/8.1.png)
+![](./images/Markdown_b_8.png)
 
 **Quoting code:**
 
@@ -138,7 +138,7 @@ heading.
 
 **Output:**
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/02/9.png)
+![](./images/Markdown_b_9.png)
 
 ##
 
@@ -151,7 +151,7 @@ heading.
 
 **Output:**
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/02/10.png)
+![](./images/Markdown_b_10.png)
 
 ##
 
@@ -173,7 +173,7 @@ heading.
 
 **Output:**
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/02/11.png)
+![](./images/Markdown_b_11.png)
 
 ##
 
@@ -190,7 +190,7 @@ heading.
 
 **Output:**
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/02/12.png)
+![](./images/Markdown_b_12.png)
 
 ##
 
@@ -205,7 +205,7 @@ heading.
 
 **Output:**
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/02/13.png)
+![](./images/Markdown_b_13.png)
 
 ##
 
@@ -218,7 +218,7 @@ heading.
 
 **Output:**
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/02/14.png)
+![](./images/Markdown_b_14.png)
 
 ## Reference:
 

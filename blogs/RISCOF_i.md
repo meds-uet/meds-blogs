@@ -53,13 +53,13 @@ what they do:
     
     sudo apt-get install python3
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/01/RISCOF-1.png)
+![](./images/RISCOF_i_1.png)
 
   2. **Install pip3:**
     
     sudo apt-install python3-pip
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/01/RISCOF-2.png)
+![](./images/RISCOF_i_2.png)
 
   3. **Upgrade pip:**
     
@@ -68,7 +68,7 @@ what they do:
 This updates **pip** , the package manager for Python, so it can handle the
 latest packages and dependencies.
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/01/RISCOF-3.png)
+![](./images/RISCOF_i_3.png)
 
   4. **Install RISCOF:**
     
@@ -77,7 +77,7 @@ latest packages and dependencies.
 This command installs or updates **RISCOF** , the framework used for RISC-V
 compliance testing.
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/01/RISCOF-4.png)
+![](./images/RISCOF_i_4.png)
 
 ### Handling Common Installation Error
 
@@ -111,7 +111,7 @@ Once you have installed RISCOF you can execute
 
 to print the help routine, it will show the output like this.
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/01/RISCOF-5.png)
+![](./images/RISCOF_i_5.png)
 
 ## Install RISCV-GNU Toolchain
 
@@ -139,7 +139,7 @@ This command installs essential tools and libraries:
     * **libgmp-dev** : A library for arithmetic operations (used by Sail).
     * **z3** : A theorem prover used by Sail for formal verification.
     * **pkg-config** and **zlib1g-dev** : Libraries for handling dependencies.
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/01/RISCOF-6.png)
+![](./images/RISCOF_i_6.png)
 
   * **Initialize OPAM:**
     
@@ -149,7 +149,7 @@ This initializes OPAM, the OCaml package manager, to install OCaml packages.
 The _\--disable-sandboxing_ option avoids permission issues during
 installation.
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/01/RISCOF-7.png)
+![](./images/RISCOF_i_7.png)
 
   * **Install Sail:**
     
@@ -158,7 +158,7 @@ installation.
 This installs the **Sail** package from OPAM, which provides the Sail RISC-V
 specification.
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/01/RISCOF-8.png)
+![](./images/RISCOF_i_8.png)
 
   * **Set the environment:**
     
@@ -175,7 +175,7 @@ current session.
 This clones the official Sail RISC-V repository from GitHub, which contains
 the RISC-V models and emulators.
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/01/RISCOF-9.png)
+![](./images/RISCOF_i_9.png)
 
   * **Build the RISC-V models for 32-bit and 64-bit architectures:**
     
@@ -265,7 +265,7 @@ allowing you to simulate and test RISC-V programs.
 
 Write spike on the terminal to check whether it shows the same output.
 
-![](http://ee.uet.edu.pk/meds/wp-content/uploads/2025/01/RISCOF-10.png)
+![](./images/RISCOF_i_10.png)
 
 ### Installation of Verilator
 
