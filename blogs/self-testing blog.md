@@ -13,7 +13,7 @@ Advanced methodology using built-in test mechanisms. A self-testing testbench au
 ## Testbench Components  
 There are a few components required to create a self-testing testbench as shown below:  
 
-![Self Testing Test Bench Components](images/self-test-comp3.png)  
+![Self Testing Test Bench Components](images/self-test-comp.png)  
 
 - **Driver**: Generates and applies inputs  
 - **Monitor**: Observes and verifies outputs  
@@ -275,4 +275,5 @@ endtask
 - Combine directed and random testing  
 - Automate result checking  
 - Use loops for repetitive tests
+
  
