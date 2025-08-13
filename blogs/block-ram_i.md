@@ -29,13 +29,13 @@ The BMG core supports both Native and AXI4 interfaces.
 
   * Create a new project in vivado and click on IP Catalog option in Project Manager menu
 
-![](https://1drv.ms/i/c/f0d27a2f5f6622cc/IQRl14mz0wjAQYjhwPKGl5dAAbazdPmz9yM91NzQmr54Fwo)
+![](./images/block-ram_i_1.png)
 
 ###
 
   * In IP Catalog type Block Memory in search bar and select Block Memory Generator from the menu
 
-![](https://1drv.ms/i/c/f0d27a2f5f6622cc/IQQ5R6IOSKJaRp8DxbQFX9hkAeeGK6-BiVsEOvg4jOSpSB0)
+![](./images/block-ram_i_2.png)
 
 ###
 
@@ -46,7 +46,7 @@ The BMG core supports both Native and AXI4 interfaces.
     * Select Interface Type Native
     * Select True Dual Port Ram from Memory Type menu
     * Select check box for the common clock option to drive both clock inputs with same clock buffer
-![](https://1drv.ms/i/c/f0d27a2f5f6622cc/IQQG7wxetCw4SZgKWxYL8D6vAcfXbHQsHNb7jANuDMzx53M?width=1024)
+![](./images/block-ram_i_3.png)
 
 ### In Port A Options Tab
 
@@ -75,7 +75,7 @@ The BMG core supports both Native and AXI4 interfaces.
     * Reset Priority have 2 options available: 
       1. CE (Clock Enable): When CE is the selected priority, then CE (regcea) has a priority over reset (rsta)
       2. SR (Set Reset): When SR is the selected reset priority, then reset has a priority over CE. We are selecting SR option.
-![](https://1drv.ms/i/c/f0d27a2f5f6622cc/IQQeuugs43LnTZd9WlOV4JW9AS1WLuAbYgcH2tWhqzP6ZZo)
+![](./images/block-ram_i_4.png)
 
 ### In Port B Options Tab
 
@@ -99,7 +99,7 @@ The BMG core supports both Native and AXI4 interfaces.
     * Reset Priority have 2 options available: 
       1. CE (Clock Enable): When CE is the selected priority, then CE (regceb) has a priority over reset (rstb)
       2. SR (Set Reset): When SR is the selected reset priority, then reset has a priority over CE. We are selecting SR option.
-![](https://1drv.ms/i/c/f0d27a2f5f6622cc/IQTBmbCVEViqQbMHesKPaIEsAZ2W26dgoXdbJa2VK1voOM8)
+![](./images/block-ram_i_5.png)
 
 ### In Other Options Tab
 
@@ -110,20 +110,18 @@ The BMG core supports both Native and AXI4 interfaces.
     * In COE file editor there are 2 key values to be set 
       1. memory_initialization_radix: Set 2 to get Binary, 10 to get Decimal and 16 to get Hexa
       2. memory_initialization_vector: write your memory values within your specified width
-![](https://1drv.ms/i/c/f0d27a2f5f6622cc/IQTUZCNm8kzyTKCJJ47NK71mAZJ0Csx4ltgHer_xB6suPwA)
+![](./images/block-ram_i_6.png)
 
     * Select check box to fill remaining memory locations with your desired value (0 in this case)
-![](https://1drv.ms/i/c/f0d27a2f5f6622cc/IQS03o7Dwcg-QoSJFNtS2GYfAeUK4ub7Lu-
-kkjoGSU1WooI)
+![](./images/block-ram_i_7.png)
 
 ### In IP Symbol Tab
 
     * Here your Block Ram block diagram is shown where you can see the input ports and their bit size
-![](https://1drv.ms/i/c/f0d27a2f5f6622cc/IQRns3woctC7TKPn-
-kqSARO4ASRTPeKYgz7Y22RQqBecI8E)
+![](./images/block-ram_i_8.png)
 
     * Clicking Ok appears this dialogue box. Click on generate to generate your Block Ram IP
-![](https://1drv.ms/i/c/f0d27a2f5f6622cc/IQTXBBXmyquqQ478xhtEHYHGAaIQ7NBlD5_fcGKDPReEsAY)
+![](./images/block-ram_i_9.png)
 
 ## Using block ram IP
 
@@ -277,7 +275,7 @@ I am using Block Ram Ip which have following specifications:
 
 ## The resultant simulation will be like this
 
-![](https://1drv.ms/i/c/f0d27a2f5f6622cc/IQSpphNukOJ-S7i79btsCa7bAdyOAyRlmWiMbmJwV4Ty2cQ)
+![](./images/block-ram_i_9.png)
 
 #### Port A
 
